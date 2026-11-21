@@ -1,11 +1,10 @@
-
- <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kashalya Diagnostics | Test Results You Can Trust — Jargo, Puruliya</title>
-  <meta name="description" content="Kashalya Diagnostics at VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal. Browse 637 diagnostic tests with transparent MRP rates, check timings (8:00 AM - 5:00 PM), and book tests." />
+  <meta name="description" content="Kashalya Diagnostics in VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya. Complete 637 diagnostic tests directory with transparent MRP rates and booking." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -15,102 +14,96 @@
       theme: {
         extend: {
           fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif']
           },
           colors: {
             brandBlue: {
               DEFAULT: '#0047AB',
-              dark: '#002D72',
-              light: '#1A73E8',
-              soft: '#EEF5FF',
+              dark: '#00317A',
+              light: '#1D63C8',
+              soft: '#EEF4FF'
             },
             brandGreen: {
-              DEFAULT: '#18A932',
-              dark: '#128A2E',
-              light: '#4CE038',
-              soft: '#EEFBF0',
+              DEFAULT: '#169C32',
+              dark: '#117A27',
+              light: '#45D03A',
+              soft: '#ECFDF0'
             },
             brandRed: {
-              DEFAULT: '#E11D1D',
-              soft: '#FEF2F2',
+              DEFAULT: '#D91E1E',
+              soft: '#FEF2F2'
             },
-            slateInk: '#0F172A',
+            slateInk: '#0F172A'
           },
           boxShadow: {
-            card: '0 6px 24px -6px rgba(0, 71, 171, 0.08), 0 2px 6px -1px rgba(15, 23, 42, 0.04)',
-            cardHover: '0 14px 32px -8px rgba(0, 71, 171, 0.14), 0 4px 12px -2px rgba(15, 23, 42, 0.06)',
-            float: '0 12px 30px -6px rgba(15, 23, 42, 0.22)',
-          },
-        },
-      },
+            card: '0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 1px 3px 0 rgba(15, 23, 42, 0.04)',
+            cardHover: '0 12px 28px -4px rgba(0, 71, 171, 0.12), 0 4px 10px -2px rgba(15, 23, 42, 0.05)',
+            float: '0 14px 34px -6px rgba(0, 49, 122, 0.28)'
+          }
+        }
+      }
     };
   </script>
   <style>
+    html { scroll-behavior: smooth; }
     .no-scrollbar::-webkit-scrollbar { display: none; }
     .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
     .hero-grid-pattern {
-      background-color: #f8fafc;
+      background-color: #f8fbff;
       background-image:
-        radial-gradient(at 10% 10%, rgba(0, 71, 171, 0.08) 0px, transparent 50%),
-        radial-gradient(at 90% 15%, rgba(24, 169, 50, 0.08) 0px, transparent 50%),
-        linear-gradient(to right, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+        radial-gradient(at 10% 10%, rgba(0, 71, 171, 0.07) 0px, transparent 50%),
+        radial-gradient(at 90% 15%, rgba(22, 156, 50, 0.07) 0px, transparent 50%),
+        linear-gradient(to right, rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
       background-size: 100% 100%, 100% 100%, 28px 28px, 28px 28px;
     }
     .kd-cta-gradient {
-      background: linear-gradient(135deg, #0047AB 0%, #00317A 100%);
+      background: linear-gradient(135deg, #0047AB 0%, #0056C7 55%, #169C32 100%);
     }
     .kd-cta-gradient:hover {
-      background: linear-gradient(135deg, #0056C7 0%, #0047AB 100%);
+      background: linear-gradient(135deg, #003785 0%, #0047AB 55%, #128229 100%);
     }
   </style>
 </head>
 <body class="bg-slate-50 text-slateInk antialiased selection:bg-brandBlue selection:text-white">
 
   <!-- Top Utility Bar -->
-  <div class="bg-brandBlue-dark text-white text-xs sm:text-[13px]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-wrap items-center justify-between gap-2">
-      <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
-        <span id="topHoursBadge" class="inline-flex items-center gap-1.5 font-semibold text-green-300">
-          <span class="w-1.5 h-1.5 rounded-full bg-brandGreen-light animate-pulse"></span>
+  <div class="bg-brandBlue-dark text-white text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+        <span id="topHoursBadge" class="inline-flex items-center gap-1.5 font-medium">
+          <span class="w-1.5 h-1.5 rounded-full bg-brandGreen-light"></span>
           Open: 8:00 AM – 5:00 PM
         </span>
-        <span class="hidden md:inline text-white/30">|</span>
-        <span id="topShortAddress" class="hidden md:inline text-blue-100">VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal - 723212, India</span>
+        <span id="topShortAddress" class="hidden sm:inline text-blue-100/90 truncate max-w-md">
+          VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal - 723212, India
+        </span>
       </div>
-      <div class="flex items-center gap-3 sm:gap-4 font-medium">
-        <a id="topPhone1Link" href="tel:+916295826541" class="hover:text-green-200 transition flex items-center gap-1">
-          <svg class="w-3.5 h-3.5 text-green-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-          </svg>
-          <span id="topPhone1Text">6295826541</span>
-        </a>
-        <span class="text-white/40">|</span>
-        <a id="topPhone2Link" href="tel:+917363000567" class="hover:text-green-200 transition flex items-center gap-1">
-          <span id="topPhone2Text">7363000567</span>
-        </a>
+      <div class="flex items-center gap-3 font-semibold">
+        <a id="topPhone1Link" href="tel:+916295826541" class="hover:text-green-300 transition">📞 <span id="topPhone1Text">6295826541</span></a>
+        <span class="text-blue-300/50">|</span>
+        <a id="topPhone2Link" href="tel:+917363000567" class="hover:text-green-300 transition">📞 <span id="topPhone2Text">7363000567</span></a>
       </div>
     </div>
   </div>
 
-  <!-- Sticky Navigation Header -->
-  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
+  <!-- Sticky Main Header -->
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-2xs">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 sm:h-20 gap-3">
-        <!-- Brand Logo Lockup -->
-        <a href="#top" class="flex items-center shrink-0 group" aria-label="Kashalya Diagnostics Home">
-          <div class="h-12 sm:h-14 w-auto flex items-center transition-transform duration-200 group-hover:scale-[1.01]">
+        <!-- Brand Logo -->
+        <a href="#top" class="flex items-center shrink-0 group focus:outline-none" aria-label="Kashalya Diagnostics Home">
+          <div class="h-11 sm:h-14 w-auto">
             <svg viewBox="0 0 860 230" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kashalya Diagnostics - Test Results You Can Trust">
               <defs>
                 <linearGradient id="kdRoyalBlue" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#1A73E8"/>
-                  <stop offset="52%" stop-color="#0047AB"/>
-                  <stop offset="100%" stop-color="#002D72"/>
-                </linearGradient>
-                <linearGradient id="kdBlueArc" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#2980FF"/>
+                  <stop offset="0%" stop-color="#0056C7"/>
                   <stop offset="55%" stop-color="#0047AB"/>
                   <stop offset="100%" stop-color="#00317A"/>
+                </linearGradient>
+                <linearGradient id="kdBlueArc" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#0062D6"/>
+                  <stop offset="100%" stop-color="#003B8E"/>
                 </linearGradient>
                 <linearGradient id="kdGreenSwoosh" x1="0%" y1="100%" x2="100%" y2="0%">
                   <stop offset="0%" stop-color="#128A2E"/>
@@ -188,16 +181,11 @@
         <!-- Header Actions -->
         <div class="flex items-center gap-2 sm:gap-2.5 shrink-0">
           <button type="button" onclick="openAdminGate()" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-slate-300 bg-slate-100 hover:bg-slate-200 text-slateInk text-xs sm:text-sm font-bold transition cursor-pointer" title="Admin Control Panel">
-            <svg class="w-4 h-4 text-brandBlue" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-            </svg>
+            <span>🔒</span>
             <span class="hidden sm:inline">Admin</span>
           </button>
 
           <button type="button" id="headerSelectedBtn" onclick="scrollToBookingWithSelected()" class="relative inline-flex items-center gap-1.5 px-3 py-2 rounded-xl border border-brandBlue/25 bg-brandBlue-soft text-brandBlue hover:bg-brandBlue hover:text-white text-xs sm:text-sm font-bold transition cursor-pointer">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-            </svg>
             <span>Selected</span>
             <span id="headerCartBadge" class="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full bg-brandGreen text-white text-xs font-extrabold">0</span>
           </button>
@@ -214,11 +202,10 @@
   <section id="top" class="hero-grid-pattern border-b border-slate-200/80 pt-8 pb-12 sm:pt-12 sm:pb-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
-        <!-- Left Hero Content -->
         <div class="lg:col-span-7 space-y-5">
           <div class="inline-flex flex-wrap items-center gap-2 bg-white border border-brandBlue/15 shadow-xs px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold text-brandBlue">
             <span class="w-2 h-2 rounded-full bg-brandGreen"></span>
-            <span id="heroLocationPill">Jargo - Ilu Road, Jhalda-I, Puruliya • 637 Diagnostic Tests</span>
+            <span id="heroLocationPill">VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal - 723212, India • 637 Diagnostic Tests</span>
           </div>
 
           <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slateInk tracking-tight leading-[1.14]">
@@ -229,25 +216,18 @@
             Browse our transparent MRP rate directory of <strong class="text-slateInk"><span class="dynamic-test-count">637</span> pathology, hormone, infection, allergy, and specialty tests</strong>, select tests directly, and book center visits or home sample collection across Jargo, Ilu, and Jhalda-I.
           </p>
 
-          <!-- Quick Search Bar inside Hero -->
           <div class="bg-white p-2 rounded-2xl border border-slate-200 shadow-card flex flex-col sm:flex-row gap-2 max-w-2xl">
             <div class="relative flex-1">
-              <svg class="w-5 h-5 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
-              </svg>
-              <input type="text" id="heroSearchInput" placeholder="Search by test name or Sr. No. (e.g., CBC, TSH, Dengue, 309)..." class="w-full pl-11 pr-4 py-3 text-sm text-slateInk placeholder-slate-400 bg-transparent focus:outline-none" oninput="syncSearchFromHero(this.value)" />
+              <input type="text" id="heroSearchInput" placeholder="Search by test name or Sr. No. (e.g., CBC, TSH, Dengue, 309)..." class="w-full px-4 py-3 text-sm text-slateInk placeholder-slate-400 bg-transparent focus:outline-none" oninput="syncSearchFromHero(this.value)" />
             </div>
             <a href="#tests" onclick="focusDirectorySearch()" class="kd-cta-gradient text-white px-6 py-3 rounded-xl text-sm font-bold text-center shrink-0 transition">
               Find Test &amp; MRP
             </a>
           </div>
 
-          <!-- Key Trust & Contact Pills -->
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
             <div class="bg-white/90 border border-slate-200/90 rounded-xl p-3 flex items-center gap-3">
-              <div class="w-9 h-9 rounded-lg bg-brandBlue-soft text-brandBlue flex items-center justify-center shrink-0 font-extrabold text-sm dynamic-test-count">
-                637
-              </div>
+              <div class="w-9 h-9 rounded-lg bg-brandBlue-soft text-brandBlue flex items-center justify-center shrink-0 font-extrabold text-sm dynamic-test-count">637</div>
               <div>
                 <p class="text-xs font-bold text-slateInk">Verified Tests &amp; MRP</p>
                 <p id="heroDiscountNote" class="text-[11px] text-slate-500">Transparent ₹ pricing</p>
@@ -255,11 +235,7 @@
             </div>
 
             <div class="bg-white/90 border border-slate-200/90 rounded-xl p-3 flex items-center gap-3">
-              <div class="w-9 h-9 rounded-lg bg-brandGreen-soft text-brandGreen flex items-center justify-center shrink-0">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
+              <div class="w-9 h-9 rounded-lg bg-brandGreen-soft text-brandGreen flex items-center justify-center shrink-0 font-bold text-xs">🕒</div>
               <div>
                 <p id="heroHoursText" class="text-xs font-bold text-slateInk">8:00 AM – 5:00 PM</p>
                 <p class="text-[11px] text-slate-500">Daily center &amp; collection</p>
@@ -267,12 +243,7 @@
             </div>
 
             <div class="bg-white/90 border border-slate-200/90 rounded-xl p-3 flex items-center gap-3">
-              <div class="w-9 h-9 rounded-lg bg-brandRed-soft text-brandRed flex items-center justify-center shrink-0">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-              </div>
+              <div class="w-9 h-9 rounded-lg bg-brandRed-soft text-brandRed flex items-center justify-center shrink-0 font-bold text-xs">📍</div>
               <div>
                 <p class="text-xs font-bold text-slateInk">VTC - Jargo, Jhalda-I</p>
                 <p class="text-[11px] text-slate-500">Jargo - Ilu Road, Puruliya</p>
@@ -281,7 +252,6 @@
           </div>
         </div>
 
-        <!-- Right Brand Showcase Card -->
         <div class="lg:col-span-5">
           <div class="bg-white rounded-3xl border border-slate-200/90 shadow-card p-5 sm:p-6 space-y-5">
             <div class="bg-slate-50/90 border border-slate-200/70 rounded-2xl p-4 flex items-center justify-center">
@@ -294,31 +264,16 @@
             </div>
 
             <div class="space-y-3 text-sm">
-              <div class="flex items-start gap-3 pb-3 border-b border-slate-100">
-                <span class="w-7 h-7 rounded-lg bg-brandBlue-soft text-brandBlue flex items-center justify-center shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </span>
-                <div>
-                  <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Diagnostic Center Address</p>
-                  <p id="cardAddressText" class="font-semibold text-slateInk leading-snug">VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal - 723212, India</p>
-                </div>
+              <div class="pb-3 border-b border-slate-100">
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Diagnostic Center Address</p>
+                <p id="cardAddressText" class="font-semibold text-slateInk leading-snug mt-0.5">VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal - 723212, India</p>
               </div>
 
-              <div class="flex items-start gap-3 pb-3 border-b border-slate-100">
-                <span class="w-7 h-7 rounded-lg bg-brandGreen-soft text-brandGreen flex items-center justify-center shrink-0 mt-0.5">
-                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                </span>
-                <div class="flex-1">
-                  <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Helpline &amp; WhatsApp Booking</p>
-                  <div class="flex flex-wrap items-center gap-x-4 gap-y-1 font-bold text-brandBlue">
-                    <a id="cardPhone1Link" href="tel:+916295826541" class="hover:underline">+91 62958 26541</a>
-                    <a id="cardPhone2Link" href="tel:+917363000567" class="hover:underline">+91 73630 00567</a>
-                  </div>
+              <div class="pb-3 border-b border-slate-100">
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Helpline &amp; WhatsApp Booking</p>
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-1 font-bold text-brandBlue mt-0.5">
+                  <a id="cardPhone1Link" href="tel:+916295826541" class="hover:underline">+91 62958 26541</a>
+                  <a id="cardPhone2Link" href="tel:+917363000567" class="hover:underline">+91 73630 00567</a>
                 </div>
               </div>
 
@@ -367,13 +322,8 @@
       <div class="bg-white rounded-2xl border border-slate-200/90 shadow-card p-4 sm:p-5 mb-6 space-y-4">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
           <div class="md:col-span-6 relative">
-            <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
-            </svg>
-            <input type="text" id="directorySearchInput" placeholder="Search test name or Sr. No. (#1–#646)..." class="w-full pl-10 pr-9 py-2.5 rounded-xl border border-slate-200 text-sm text-slateInk placeholder-slate-400 focus:outline-none focus:border-brandBlue focus:ring-2 focus:ring-brandBlue/15" oninput="handleSearchChange(this.value)" />
-            <button type="button" id="clearSearchBtn" onclick="resetAllFilters()" title="Clear search" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 text-xs font-bold">
-              ✕
-            </button>
+            <input type="text" id="directorySearchInput" placeholder="Search test name or Sr. No. (#1–#646)..." class="w-full px-4 pr-9 py-2.5 rounded-xl border border-slate-200 text-sm text-slateInk placeholder-slate-400 focus:outline-none focus:border-brandBlue focus:ring-2 focus:ring-brandBlue/15" oninput="handleSearchChange(this.value)" />
+            <button type="button" id="clearSearchBtn" onclick="resetAllFilters()" title="Clear search" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 text-xs font-bold">✕</button>
           </div>
 
           <div class="md:col-span-3">
@@ -409,11 +359,9 @@
         <p id="resultsCountText" class="text-sm font-semibold text-slate-600">
           Showing <span class="text-slateInk font-bold">0</span> of <span class="text-slateInk font-bold dynamic-test-count">637</span> tests
         </p>
-        <div class="flex items-center gap-3">
-          <button type="button" onclick="resetAllFilters()" class="text-xs font-bold text-brandBlue hover:underline cursor-pointer">
-            Reset Filters
-          </button>
-        </div>
+        <button type="button" onclick="resetAllFilters()" class="text-xs font-bold text-brandBlue hover:underline cursor-pointer">
+          Reset Filters
+        </button>
       </div>
 
       <div id="testsCardGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
@@ -712,7 +660,7 @@
   </footer>
 
   <!-- Admin PIN Gate Modal -->
-  <div id="adminPinModal" class="hidden fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-xs flex items-center justify-center p-4">
+  <div id="adminPinModal" class="hidden fixed inset-0 z-50 bg-slate-950/70 flex items-center justify-center p-4">
     <div class="bg-white rounded-2xl border border-slate-200 shadow-2xl max-w-sm w-full p-6 space-y-4">
       <div class="flex items-center justify-between">
         <h3 class="text-lg font-extrabold text-slateInk">Admin Login</h3>
@@ -729,7 +677,7 @@
   </div>
 
   <!-- Admin Control Dashboard Modal -->
-  <div id="adminPanelModal" class="hidden fixed inset-0 z-50 bg-slate-950/75 backdrop-blur-xs overflow-y-auto p-3 sm:p-6">
+  <div id="adminPanelModal" class="hidden fixed inset-0 z-50 bg-slate-950/75 overflow-y-auto p-3 sm:p-6">
     <div class="max-w-6xl mx-auto bg-white rounded-3xl border border-slate-200 shadow-2xl overflow-hidden my-2">
       <div class="bg-brandBlue-dark text-white px-5 py-4 flex flex-wrap items-center justify-between gap-3">
         <div>
@@ -746,7 +694,6 @@
         </div>
       </div>
 
-      <!-- Admin Tabs -->
       <div class="bg-slate-100 border-b border-slate-200 px-5 py-2.5 flex flex-wrap gap-2">
         <button type="button" id="adminTabTestsBtn" onclick="switchAdminTab('tests')" class="px-4 py-2 rounded-xl text-xs font-extrabold bg-brandBlue text-white cursor-pointer">
           Tests &amp; MRP (<span class="dynamic-test-count">637</span>)
@@ -763,7 +710,6 @@
       </div>
 
       <div class="p-5 sm:p-6">
-        <!-- Tab 1: Tests & MRP -->
         <div id="adminTabTests" class="space-y-5">
           <form onsubmit="handleAddNewTest(event)" class="bg-slate-50 border border-slate-200 rounded-2xl p-4 grid grid-cols-1 sm:grid-cols-12 gap-3 items-end">
             <div class="sm:col-span-5">
@@ -813,7 +759,6 @@
           </div>
         </div>
 
-        <!-- Tab 2: Center & Discount Settings -->
         <div id="adminTabCenter" class="hidden">
           <form onsubmit="saveCenterSettings(event)" class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
             <div class="sm:col-span-2">
@@ -852,7 +797,6 @@
           </form>
         </div>
 
-        <!-- Tab 3: Booking Log -->
         <div id="adminTabBookings" class="hidden space-y-4">
           <div class="flex items-center justify-between">
             <p class="text-xs text-slate-500">Bookings generated/sent on this browser are saved below.</p>
@@ -863,7 +807,6 @@
           <div id="adminBookingsContainer" class="space-y-3 max-h-96 overflow-y-auto"></div>
         </div>
 
-        <!-- Tab 4: Export Updated HTML -->
         <div id="adminTabExport" class="hidden space-y-3">
           <p class="text-xs text-slate-600 leading-relaxed">
             Copy this updated HTML code and paste it into <strong>index.html</strong> on GitHub so all visitors on other phones/browsers also see your updated tests, MRP rates, and center settings.
@@ -938,16 +881,991 @@
       {id:405,name:"LEAD TEST",mrp:1000},{id:406,name:"LEPROSY-IgG",mrp:1000},{id:407,name:"LEPROSY-IgG,IgM",mrp:1800},{id:408,name:"LEPROSY-IgM",mrp:1000},{id:409,name:"LEPTIN",mrp:3500},{id:410,name:"LH,FSH,PRL",mrp:1200},{id:411,name:"LH,FSH,PRL,TSH",mrp:1200},{id:412,name:"LH:FSH Ratio",mrp:500},{id:413,name:"LIVER FUNCTION TESTS",mrp:650},{id:414,name:"LIVER KIDNEY MICROSOMES (LKM)",mrp:1000},
       {id:415,name:"Lactate Dehydrogenase (LDH) FLUID",mrp:900},{id:416,name:"Lambda Light Chain",mrp:800},{id:417,name:"Leptospira Antibody IgG",mrp:1000},{id:418,name:"Leptospira Antibody IgM",mrp:1000},{id:419,name:"Leshmania Antibodies (KALA AZAR ) RK -39",mrp:1000},{id:420,name:"Lipase",mrp:500},{id:421,name:"Lipase Fluid",mrp:500},{id:422,name:"Lipid Profile",mrp:650},{id:423,name:"Lipoprotein (a) [Lp(a)]",mrp:700},{id:424,name:"Lithium (Li)",mrp:400},
       {id:425,name:"Lupus Anticoagulant (DRVVT)",mrp:1500},{id:426,name:"Luteinising Hormone (LH)",mrp:300},{id:427,name:"MALARIA ANTIGEN ELISA",mrp:400},{id:428,name:"MALARIAL ANTIGEN (Parasite V & F)",mrp:400},{id:429,name:"MALARIAL PARASITE SLIDE",mrp:150},{id:430,name:"MEASLES ANTIBODY - IGG",mrp:1000},{id:431,name:"MEASLES ANTIBODY - IGM",mrp:1000},{id:432,name:"MENSTRUAL BLOOD AFB",mrp:400},{id:433,name:"MICROALBUMIN URINE",mrp:500},{id:434,name:"MICROALBUMIN/CREATININE RATIO (URINE)",mrp:500},
-      {id:435,name:"MICROFILARIA IgG, IgM ELISA",mrp:1300},{id:436,name:"MICROFILARIA IgG, IgM RAPID",mrp:1200},{id:437,name:"MICROFILARIA SLIDE",mrp:25
+      {id:435,name:"MICROFILARIA IgG, IgM ELISA",mrp:1300},{id:436,name:"MICROFILARIA IgG, IgM RAPID",mrp:1200},{id:437,name:"MICROFILARIA SLIDE",mrp:250},{id:438,name:"MILK C/S",mrp:400},{id:439,name:"MOTHER MILK CYTOLOGY",mrp:400},{id:440,name:"MPO - ANCA ( P - ANCA )",mrp:1000},{id:441,name:"MUMPS ANTIBODY - IGG",mrp:1000},{id:442,name:"MUMPS ANTIBODY - IGM",mrp:1000},{id:443,name:"MYOGLOBIN SERUM",mrp:1000},{id:444,name:"Magnesium",mrp:350},
+      {id:445,name:"Marijuana (CANNABINOIDS)",mrp:600},{id:446,name:"Metanephrine free serum",mrp:2500},{id:447,name:"Metanephrine serum",mrp:1500},{id:448,name:"Microalbumin 24 hrs URINE",mrp:500},{id:449,name:"Microalbumin SERUM",mrp:400},{id:450,name:"Mycobacterium TB PCR - Qualitative (EDTA)",mrp:1500},{id:451,name:"Mycobacterium TB PCR - Qualitative (FLUID)",mrp:1500},{id:452,name:"Mycobacterium TB PCR - Qualitative (SPUTUM)",mrp:1700},{id:453,name:"Mycobacterium TB PCR - Qualitative (TISSUE)",mrp:1500},{id:454,name:"Mycobacterium TB PCR - Qualitative (menstruation BLOOD)",mrp:1500},
+      {id:455,name:"Mycoplasma Pneumoniae IgG",mrp:2000},{id:456,name:"Mycoplasma Pneumoniae IgM",mrp:2000},{id:457,name:"Myoglobin URINE",mrp:1200},{id:458,name:"NIPT (Noninvasive prenatal testing)",mrp:25000},{id:459,name:"NT-PROBNP",mrp:1700},{id:462,name:"ORAL GLUCOSE CHALLENGE TEST (OGCT)",mrp:160},{id:463,name:"OT Swabs C/S",mrp:500},{id:464,name:"Osmolality - 24 hrs Urine",mrp:500},{id:465,name:"Osmolality - Serum",mrp:500},{id:466,name:"Osmolality - Urine Random",mrp:500},
+      {id:467,name:"PAP Smear",mrp:500},{id:468,name:"PERIPHERAL BLOOD SMEAR (PBS)",mrp:250},{id:469,name:"PH Urine",mrp:100},{id:470,name:"PHOSPHOROUS SERUM",mrp:180},{id:471,name:"PLATELET COUNT",mrp:150},{id:472,name:"POC microarray",mrp:25000},{id:473,name:"POTASSIUM",mrp:100},{id:474,name:"PR3 - ANCA ( C -ANCA )",mrp:1000},{id:475,name:"PREGNANCY ASSOCIATED PLASMA PROTEIN A (PAPPA-A)",mrp:700},{id:476,name:"PROCALCITONIN",mrp:1300},
+      {id:477,name:"PROSTATE SPECIFIC ANTIGEN (PSA)",mrp:600},{id:478,name:"PROTEIN - TOTAL",mrp:200},{id:479,name:"PROTEIN ELECTROPHORESIS SERUM",mrp:1000},{id:480,name:"PROTEIN,ALBUMIN ,GLOBULIN",mrp:150},{id:481,name:"PSA - Free (Prostate Specific Antigen)",mrp:1000},{id:482,name:"PSA - Total (Prostate Specific Antigen)",mrp:600},{id:483,name:"PUS C/S Anaerobic",mrp:500},{id:484,name:"Parvovirus B19 IgG,IgM",mrp:4000},{id:485,name:"Parvovirus B19 IgM",mrp:2000},{id:486,name:"Plasma Metanephrine",mrp:2200},
+      {id:487,name:"Plasma Non metanephrine free",mrp:5000},{id:488,name:"Plasma Renin Activity",mrp:1500},{id:489,name:"Pleural Fluid Cytology",mrp:500},{id:490,name:"Potassium Random URINE",mrp:300},{id:491,name:"Pregnancy Test Urine",mrp:100},{id:492,name:"Progesterone",mrp:550},{id:493,name:"Prolactin (PRL)",mrp:400},{id:494,name:"Protein (Microprotein) Random - Urinary",mrp:100},{id:495,name:"Protein (Urine)",mrp:200},{id:496,name:"Protein - Fluids",mrp:200},
+      {id:497,name:"Protein 24 hrs - Urinary",mrp:200},{id:498,name:"Protein S",mrp:2500},{id:499,name:"Protein c",mrp:2500},{id:500,name:"Prothrombin Time (PT) with INR",mrp:400},{id:501,name:"Pus Cytology",mrp:500},{id:502,name:"Pus c/s BACTEC Aerobic",mrp:1000},{id:503,name:"QUADRUPLE MARKER - SECOND TRIMESTER",mrp:3000},{id:504,name:"RA,ASO,CRP",mrp:600},{id:505,name:"RAPID PLASMA REAGIN (RPR TEST)",mrp:500},{id:506,name:"RETICULOCYTE COUNT (%)",mrp:300},
+      {id:507,name:"RHEUMATOID FACTOR (RA) Quantitative",mrp:500},{id:508,name:"RUBELLA AVIDITY, IgG, SERUM",mrp:700},{id:509,name:"Rh Antibody Titer",mrp:500},{id:510,name:"Roma Score ( HE4 & CA125)",mrp:2500},{id:511,name:"Rota virus detection",mrp:1000},{id:512,name:"Rubella Virus - IgG",mrp:600},{id:513,name:"Rubella Virus - IgM",mrp:600},{id:514,name:"SCRUB TYPHUS IGG",mrp:1200},{id:515,name:"SCRUB TYPHUS IGM",mrp:1200},{id:516,name:"SEMEN C/S",mrp:500},
+      {id:517,name:"SERUM COPPER",mrp:300},{id:518,name:"SERUM ELECTROLYTES",mrp:400},{id:519,name:"SERUM GLOBULIN",mrp:100},{id:520,name:"SERUM ZINC",mrp:300},{id:521,name:"SEX HORMONE BINDING GLOBULIN (SHBG)",mrp:1000},{id:522,name:"SGOT ; Aspartate Aminotransferase (AST)",mrp:200},{id:523,name:"SGPT ; ALANINE AMINOTRANSFERASE (ALT)",mrp:200},{id:524,name:"SPOT urine Protein/Creatinine Ratio",mrp:120},{id:525,name:"SPUTUM AFB",mrp:400},{id:526,name:"SPUTUM AFB CULTURE FOR ATT",mrp:1000},
+      {id:527,name:"SPUTUM C/S",mrp:500},{id:528,name:"SPUTUM FOR GRAM STAIN",mrp:150},{id:529,name:"SPUTUM for koh",mrp:400},{id:530,name:"STOOL C/S",mrp:500},{id:531,name:"STOOL FOR REDUCING SUGAR",mrp:130},{id:532,name:"STOOL Metanephrine",mrp:2200},{id:533,name:"SWAB C/S",mrp:500},{id:534,name:"Saag test",mrp:400},{id:535,name:"Salmonella Typhi (TYPHI DOT IgG & IgM) ELISA",mrp:500},{id:536,name:"Salmonella Typhi (TYPHI DOT IgG & IgM) RAPID",mrp:500},
+      {id:537,name:"Salmonella Typhi (TYPHI DOT IgG)",mrp:300},{id:538,name:"Salmonella Typhi (TYPHI DOT IgM)",mrp:300},{id:539,name:"Semen Analysis",mrp:300},{id:540,name:"Serum Acetylcholinesterase, Erythrocytes",mrp:1500},{id:541,name:"Serum Free Lambda (Light Chain)",mrp:4000},{id:542,name:"Serum HEPCIDIN",mrp:4000},{id:543,name:"Serum phosphate",mrp:400},{id:544,name:"Sickling Test",mrp:500},{id:545,name:"Skin scraping for Fungal examination",mrp:600},{id:546,name:"Sm/RNP ANTIBODIES",mrp:1000},
+      {id:547,name:"Sm/RNP Antibody",mrp:1800},{id:548,name:"Sodium",mrp:300},{id:549,name:"Sodium Bicarbonate",mrp:500},{id:550,name:"Sodium Random Urine",mrp:300},{id:551,name:"Sputum Cytology",mrp:500},{id:552,name:"Stone Analysis",mrp:1000},{id:553,name:"Stool Examination",mrp:200},{id:554,name:"Stool for Hanging Drop",mrp:200},{id:555,name:"Synovial Fluid Cytology",mrp:500},{id:556,name:"TACROLIMUS",mrp:3600},
+      {id:557,name:"TB GOLD, INTERFERON GAMMA RELEASE ASSAY (IGRA)",mrp:2000},{id:558,name:"THALASSEMIA SCREEN",mrp:2000},{id:559,name:"THYROGLOBULIN (TG)",mrp:1000},{id:560,name:"THYROID PROFILE -3 (T3 T4 TSH)",mrp:600},{id:561,name:"THYROID PROFILE-5 (FT3 FT4 T3 T4 TSH )",mrp:1000},{id:562,name:"THYROID STIMULATING HORMONE (TSH)",mrp:250},{id:563,name:"TIP C/S",mrp:700},{id:564,name:"TISSUE C/S Aerobic",mrp:1000},{id:565,name:"TISSUE C/S Anaerobic",mrp:400},{id:566,name:"TISSUE TRANSGLUTAMINASE - IGA (TTG)",mrp:1000},
+      {id:567,name:"TISSUE TRANSGLUTAMINASE TTG-DGP SCREEN",mrp:1500},{id:568,name:"TORCH-10",mrp:2500},{id:569,name:"TORCH-10 WITH Avidity",mrp:4000},{id:570,name:"TORCH-4 IgG",mrp:1000},{id:571,name:"TORCH-4 IgM",mrp:1000},{id:572,name:"TORCH-8",mrp:2000},{id:573,name:"TORCH-IgG-5",mrp:1000},{id:574,name:"TORCH-IgM-5",mrp:1000},{id:575,name:"TOTAL BILE ACID",mrp:1000},{id:576,name:"TOTAL IGE",mrp:600},
+      {id:577,name:"TOTAL IRON BINDING CAPACITY (TIBC)",mrp:500},{id:578,name:"TOTAL THYROXINE (T4)",mrp:100},{id:579,name:"TOTAL TRIIODOTHYRONINE (T3)",mrp:150},{id:580,name:"TPHA; TREPONEMA PALLIDUM HEMAGGLUTINATION",mrp:400},{id:581,name:"TPMT Genotyping",mrp:5000},{id:582,name:"TREPONEMA PALLIDUM ANTIBODY (TPAB)",mrp:400},{id:583,name:"TREPONEMA PALLIDUM HAEMAGGLUTINATION",mrp:400},{id:584,name:"TRIGLYCERIDES",mrp:200},{id:585,name:"TRIPLE H ELISA (HIV,HCV,HBSAG)",mrp:1200},{id:586,name:"TRIPLE MARKER - SECOND TRIMESTER",mrp:2000},
+      {id:587,name:"TROPONIN - T, HIGH SENSITIVE (CLIA)",mrp:1500},{id:588,name:"TROPONIN-T",mrp:1300},{id:589,name:"TSH RECEPTOR ANTIBODIES",mrp:1000},{id:590,name:"TSH Ultrasensitive",mrp:400},{id:591,name:"TSH,PRL",mrp:600},{id:592,name:"Testosterone- Total",mrp:600},{id:593,name:"Throat Swab C/S",mrp:500},{id:594,name:"Tissu gram stain tissue AFB",mrp:500},{id:595,name:"Tissue Transglutaminase Antibody ( tTG-IgG)",mrp:900},{id:596,name:"Tissue Transglutaminase Antibody ( tTG-IgM)",mrp:900},
+      {id:597,name:"Total Leucocyte Count (TLC)",mrp:70},{id:598,name:"Toxoplasma IgG",mrp:300},{id:599,name:"Toxoplasma IgM",mrp:300},{id:600,name:"Tracheal Tube C/s",mrp:400},{id:601,name:"Triple H Rapid - (HIV,HBsAg,HCV)",mrp:900},{id:602,name:"Troponin - I (Quantitative)",mrp:800},{id:603,name:"Troponin - I RAPID",mrp:600},{id:604,name:"U1RNP ANTIBODIES, SERUM",mrp:1500},{id:605,name:"UNCONJUGATED ESTRIOL (E3)",mrp:700},{id:606,name:"URINE C/S",mrp:600},
+      {id:607,name:"Uric Acid",mrp:150},{id:608,name:"Urine Bile Salt & Bile Pigment",mrp:500},{id:609,name:"Urine Conductivity",mrp:250},{id:610,name:"Urine R/M (Urine Analysis)",mrp:100},{id:611,name:"Urine for Chyle",mrp:400},{id:612,name:"VAGINAL SWAB C/S",mrp:500},{id:613,name:"VDRL - Rapid",mrp:500},{id:614,name:"VDRL -TEST",mrp:500},{id:615,name:"VITAMIN A",mrp:2000},{id:616,name:"VITAMIN B-12",mrp:900},
+      {id:617,name:"VITAMIN B1/THIAMIN",mrp:1200},{id:618,name:"VITAMIN B2/RIBOFLAVIN",mrp:1200},{id:619,name:"VITAMIN B3/NICOTINIC ACID",mrp:1200},{id:620,name:"VITAMIN B5/PANTOTHENIC",mrp:1200},{id:621,name:"VITAMIN B6/PYRIDOXAL - 5 - PHOSPHATE",mrp:1200},{id:622,name:"VITAMIN B7/BIOTIN",mrp:1200},{id:623,name:"VITAMIN D PROFILE (D2,D3,TOTAL D)",mrp:800},{id:624,name:"VITAMIN D2",mrp:800},{id:625,name:"VITAMIN K",mrp:2000},{id:626,name:"VITAMIN-C",mrp:2000},
+      {id:627,name:"Valproic Acid (Sodium Valproate)",mrp:900},{id:628,name:"Varicella-Zoster Virus (VZV) Chicken Pox-IgG",mrp:1400},{id:629,name:"Varicella-Zoster Virus (VZV) Chicken Pox-IgG,IgM",mrp:2500},{id:630,name:"Varicella-Zoster Virus (VZV) Chicken Pox-IgM",mrp:1400},{id:631,name:"Vitamin D3",mrp:800},{id:632,name:"Vitamin Profile (D2,D3,B12,TOTAL D)",mrp:1100},{id:633,name:"WIDAL",mrp:150},{id:634,name:"Widal Test (Slide Test)",mrp:300},{id:635,name:"Widal Test (Tube Test)",mrp:300},{id:636,name:"anti smith antibody",mrp:500},
+      {id:637,name:"c1 esterase inhibitor",mrp:5000},{id:641,name:"factor v leiden",mrp:5200},{id:642,name:"Inorganic phosphorus",mrp:300},{id:643,name:"liquid-based Pap smear",mrp:1000},{id:644,name:"skin for AFB",mrp:500},{id:645,name:"stool for occult blood",mrp:300},{id:646,name:"toxoplasma avidity test",mrp:450}
+    ];
 
-      
+    const DEFAULT_CENTER_CONFIG = {
+      address: "VTC - Jargo, Jargo - Ilu Road, Jhalda-I, Puruliya, West Bengal - 723212, India",
+      hours: "8:00 AM – 5:00 PM",
+      phone1: "6295826541",
+      phone2: "7363000567",
+      email: "kashalyadiagnostics@gmail.com",
+      discountPercent: 0,
+      adminPin: "0311"
+    };
 
-    
-          
+    const STORAGE_KEYS = {
+      tests: "kd_admin_tests_v2",
+      config: "kd_admin_config_v2",
+      bookings: "kd_admin_bookings_v2"
+    };
 
-   
+    function categorizeTest(name) {
+      const n = String(name || "").toUpperCase();
+      if (
+        n.includes("GLUCOSE") || n.includes("HBA1C") || n.includes("INSULIN") ||
+        n.includes("C-PEPTIDE") || n.includes("HOMA") || n.includes("FRUCTOSAMINE") ||
+        n.includes("THYROID") || n.includes("TSH") || n.includes("FT3") || n.includes("FT4") ||
+        n.includes("T3") || n.includes("T4") || n.includes("ATG") || n.includes("TPO") || n.includes("AMA")
+      ) {
+        return "Diabetes & Thyroid";
+      }
+      if (
+        n.includes("DENGUE") || n.includes("MALARIA") || n.includes("MALARIAL") ||
+        n.includes("WIDAL") || n.includes("TYPHI") || n.includes("CHIKUNGUNYA") ||
+        n.includes("SCRUB TYPHUS") || n.includes("HEPATITIS") || n.includes("HIV") ||
+        n.includes("HERPES") || n.includes("HSV") || n.includes("TORCH") || n.includes("CMV") ||
+        n.includes("RUBELLA") || n.includes("TOXOPLASMA") || n.includes("CRP") || n.includes("PROCALCITONIN") ||
+        n.includes("AFB") || n.includes("TB ") || n.includes("GENE XPERT") || n.includes("C/S")
+      ) {
+        return "Fever & Infection";
+      }
+      if (
+        n.includes("FSH") || n.includes("LH") || n.includes("PROLACTIN") || n.includes("PRL") ||
+        n.includes("ESTRADIOL") || n.includes("PROGESTERONE") || n.includes("TESTOSTERONE") ||
+        n.includes("AMH") || n.includes("BHCG") || n.includes("DOUBLE MARKER") ||
+        n.includes("TRIPLE MARKER") || n.includes("QUADRUPLE") || n.includes("NIPT") ||
+        n.includes("SEMEN") || n.includes("ANDROGEN") || n.includes("INHIBIN")
+      ) {
+        return "Hormones & Fertility";
+      }
+      if (
+        n.includes("ALLERGY") || n.includes("IGE") || n.includes("ANA") || n.includes("ANTI ") ||
+        n.includes("ANTIBODY") || n.includes("RHEUMATOID") || n.includes("RA,") ||
+        n.includes("HLA") || n.includes("COMPLEMENT") || n.includes("TTG") || n.includes("ANCA")
+      ) {
+        return "Allergy & Autoimmune";
+      }
+      if (
+        n.includes("CA 125") || n.includes("CA125") || n.includes("CA 19.9") || n.includes("CA19.9") ||
+        n.includes("CA15.3") || n.includes("CA-27") || n.includes("CA-72") || n.includes("CEA") ||
+        n.includes("AFP") || n.includes("PSA") || n.includes("CYFRA") || n.includes("ROMA") ||
+        n.includes("HISTOPATHOLOGY") || n.includes("CYTOLOGY") || n.includes("FNAC") || n.includes("PAP SMEAR")
+      ) {
+        return "Cancer & Pathology";
+      }
+      return "Routine & Organ Panels";
+    }
 
+    function loadStoredTests() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEYS.tests);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            return parsed.map((item) => ({
+              id: Number(item.id),
+              name: String(item.name),
+              mrp: Number(item.mrp) || 0,
+              category: item.category || categorizeTest(String(item.name))
+            }));
+          }
+        }
+      } catch (_) {}
+      return DEFAULT_RAW_TESTS.map((item) => ({
+        id: item.id,
+        name: item.name,
+        mrp: item.mrp,
+        category: categorizeTest(item.name)
+      }));
+    }
 
-        
-  
+    function loadStoredConfig() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEYS.config);
+        if (raw) {
+          return Object.assign({}, DEFAULT_CENTER_CONFIG, JSON.parse(raw));
+        }
+      } catch (_) {}
+      return Object.assign({}, DEFAULT_CENTER_CONFIG);
+    }
 
+    function loadStoredBookings() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEYS.bookings);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed)) return parsed;
+        }
+      } catch (_) {}
+      return [];
+    }
+
+    let CATALOG = loadStoredTests();
+    let CENTER_CONFIG = loadStoredConfig();
+    let BOOKING_LOGS = loadStoredBookings();
+    let adminUnlocked = false;
+
+    const CATEGORIES = [
+      "All Tests",
+      "Routine & Organ Panels",
+      "Diabetes & Thyroid",
+      "Fever & Infection",
+      "Hormones & Fertility",
+      "Allergy & Autoimmune",
+      "Cancer & Pathology"
+    ];
+
+    const state = {
+      searchQuery: "",
+      category: "All Tests",
+      letter: "ALL",
+      priceRange: "all",
+      sortBy: "sr_asc",
+      viewMode: "cards",
+      currentPage: 1,
+      pageSize: 24,
+      selectedIds: new Set()
+    };
+
+    function saveTestsToStorage() {
+      try { localStorage.setItem(STORAGE_KEYS.tests, JSON.stringify(CATALOG)); } catch (_) {}
+    }
+
+    function saveConfigToStorage() {
+      try { localStorage.setItem(STORAGE_KEYS.config, JSON.stringify(CENTER_CONFIG)); } catch (_) {}
+    }
+
+    function saveBookingsToStorage() {
+      try { localStorage.setItem(STORAGE_KEYS.bookings, JSON.stringify(BOOKING_LOGS)); } catch (_) {}
+    }
+
+    function cleanPhone10(val) {
+      const digits = String(val || "").replace(/\D/g, "");
+      return digits.length >= 10 ? digits.slice(-10) : "6295826541";
+    }
+
+    function formatINR(amount) {
+      return "₹" + Math.round(Number(amount || 0)).toLocaleString("en-IN");
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function showToast(msg) {
+      const el = document.getElementById("toastBanner");
+      if (!el) return;
+      el.textContent = msg;
+      el.classList.remove("hidden");
+      clearTimeout(showToast._timer);
+      showToast._timer = setTimeout(() => {
+        el.classList.add("hidden");
+      }, 2400);
+    }
+
+    function applyCenterConfigToDOM() {
+      const p1 = cleanPhone10(CENTER_CONFIG.phone1);
+      const p2 = cleanPhone10(CENTER_CONFIG.phone2);
+      const count = CATALOG.length;
+      const disc = Number(CENTER_CONFIG.discountPercent) || 0;
+
+      document.querySelectorAll(".dynamic-test-count").forEach((el) => {
+        el.textContent = count;
+      });
+      document.querySelectorAll(".dynamic-hours-inline").forEach((el) => {
+        el.textContent = CENTER_CONFIG.hours;
+      });
+      document.querySelectorAll(".dynamic-phones-inline").forEach((el) => {
+        el.textContent = `${p1} & ${p2}`;
+      });
+
+      document.getElementById("topHoursBadge").innerHTML =
+        `<span class="w-1.5 h-1.5 rounded-full bg-brandGreen-light"></span>Open: ${escapeHtml(CENTER_CONFIG.hours)}`;
+      document.getElementById("topShortAddress").textContent = CENTER_CONFIG.address;
+      document.getElementById("topPhone1Link").href = `tel:+91${p1}`;
+      document.getElementById("topPhone1Text").textContent = p1;
+      document.getElementById("topPhone2Link").href = `tel:+91${p2}`;
+      document.getElementById("topPhone2Text").textContent = p2;
+
+      document.getElementById("heroLocationPill").textContent =
+        `${CENTER_CONFIG.address} • ${count} Diagnostic Tests`;
+      document.getElementById("heroDiscountNote").textContent =
+        disc > 0 ? `${disc}% Admin Discount Active` : "Transparent ₹ pricing";
+      document.getElementById("heroHoursText").textContent = CENTER_CONFIG.hours;
+
+      document.getElementById("cardAddressText").textContent = CENTER_CONFIG.address;
+      document.getElementById("cardPhone1Link").href = `tel:+91${p1}`;
+      document.getElementById("cardPhone1Link").textContent = `+91 ${p1.slice(0, 5)} ${p1.slice(5)}`;
+      document.getElementById("cardPhone2Link").href = `tel:+91${p2}`;
+      document.getElementById("cardPhone2Link").textContent = `+91 ${p2.slice(0, 5)} ${p2.slice(5)}`;
+      document.getElementById("cardHoursText").textContent = CENTER_CONFIG.hours;
+      document.getElementById("cardWhatsAppBtn").href =
+        `https://wa.me/91${p1}?text=Hello%20Kashalya%20Diagnostics%2C%20I%20would%20like%20to%20book%20a%20diagnostic%20test.`;
+
+      document.getElementById("bookingFormPhoneLabel").textContent =
+        `+91 ${p1.slice(0, 5)} ${p1.slice(5)}`;
+
+      document.getElementById("fullCenterAddress").textContent = CENTER_CONFIG.address;
+      document.getElementById("contactHoursText").textContent = `${CENTER_CONFIG.hours} (All Days)`;
+      document.getElementById("contactPhone1Link").href = `tel:+91${p1}`;
+      document.getElementById("contactPhone1Link").textContent = `+91 ${p1.slice(0, 5)} ${p1.slice(5)}`;
+      document.getElementById("contactPhone2Link").href = `tel:+91${p2}`;
+      document.getElementById("contactPhone2Link").textContent = `+91 ${p2.slice(0, 5)} ${p2.slice(5)}`;
+      document.getElementById("contactEmailText").textContent = CENTER_CONFIG.email;
+      document.getElementById("contactCallNowLink").href = `tel:+91${p1}`;
+      document.getElementById("mapsExternalLink").href =
+        `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CENTER_CONFIG.address)}`;
+      document.getElementById("locationMapIframe").src =
+        `https://maps.google.com/maps?q=${encodeURIComponent(CENTER_CONFIG.address)}&t=&z=14&ie=UTF8&iwloc=&output=embed`;
+
+      document.getElementById("footerAddressText").textContent = CENTER_CONFIG.address;
+      document.getElementById("footerPhone1Link").href = `tel:+91${p1}`;
+      document.getElementById("footerPhone1Link").textContent = `+91 ${p1.slice(0, 5)} ${p1.slice(5)}`;
+      document.getElementById("footerPhone2Link").href = `tel:+91${p2}`;
+      document.getElementById("footerPhone2Link").textContent = `+91 ${p2.slice(0, 5)} ${p2.slice(5)}`;
+    }
+
+    function renderCategoryChips() {
+      const bar = document.getElementById("categoryChipsBar");
+      bar.innerHTML = CATEGORIES.map((cat) => {
+        const active = state.category === cat;
+        const count = cat === "All Tests"
+          ? CATALOG.length
+          : CATALOG.filter((t) => t.category === cat).length;
+        return `
+          <button type="button" onclick="selectCategory('${escapeHtml(cat)}')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold shrink-0 transition cursor-pointer ${
+            active
+              ? "bg-brandBlue text-white shadow-2xs"
+              : "bg-slate-100 text-slate-700 hover:bg-slate-200/80"
+          }">
+            ${escapeHtml(cat)} <span class="${active ? "text-blue-100" : "text-slate-400"} font-semibold">(${count})</span>
+          </button>
+        `;
+      }).join("");
+    }
+
+    function renderAlphabetBar() {
+      const container = document.getElementById("alphabetBar");
+      const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+      container.innerHTML = chars.map((ch) => {
+        const active = state.letter === ch;
+        return `
+          <button type="button" data-letter="${ch}" onclick="selectLetter('${ch}')" class="letter-btn w-7 h-7 rounded-lg text-xs font-bold shrink-0 transition cursor-pointer ${
+            active ? "bg-brandGreen text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+          }">
+            ${ch}
+          </button>
+        `;
+      }).join("");
+      updateLetterStyles();
+    }
+
+    function updateLetterStyles() {
+      document.querySelectorAll(".letter-btn").forEach((btn) => {
+        const l = btn.getAttribute("data-letter");
+        const isActive = state.letter === l;
+        btn.className = `letter-btn ${l === "ALL" ? "px-2.5 h-7" : "w-7 h-7"} rounded-lg text-xs font-bold shrink-0 transition cursor-pointer ${
+          isActive
+            ? (l === "ALL" ? "bg-brandBlue text-white" : "bg-brandGreen text-white")
+            : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+        }`;
+      });
+    }
+
+    function selectCategory(cat) {
+      state.category = cat;
+      state.currentPage = 1;
+      renderCategoryChips();
+      renderDirectory();
+    }
+
+    function selectLetter(ch) {
+      state.letter = ch;
+      state.currentPage = 1;
+      updateLetterStyles();
+      renderDirectory();
+    }
+
+    function handleSearchChange(val) {
+      state.searchQuery = val.trim();
+      state.currentPage = 1;
+      const dirInput = document.getElementById("directorySearchInput");
+      if (dirInput.value !== val) dirInput.value = val;
+      document.getElementById("clearSearchBtn").classList.toggle("hidden", !state.searchQuery);
+      renderDirectory();
+    }
+
+    function syncSearchFromHero(val) {
+      state.searchQuery = val.trim();
+      state.currentPage = 1;
+      document.getElementById("directorySearchInput").value = val;
+      document.getElementById("clearSearchBtn").classList.toggle("hidden", !state.searchQuery);
+      renderDirectory();
+    }
+
+    function focusDirectorySearch() {
+      setTimeout(() => {
+        const el = document.getElementById("directorySearchInput");
+        if (el) el.focus();
+      }, 250);
+    }
+
+    function resetAllFilters() {
+      state.searchQuery = "";
+      state.category = "All Tests";
+      state.letter = "ALL";
+      state.priceRange = "all";
+      state.sortBy = "sr_asc";
+      state.currentPage = 1;
+      document.getElementById("heroSearchInput").value = "";
+      document.getElementById("directorySearchInput").value = "";
+      document.getElementById("priceFilterSelect").value = "all";
+      document.getElementById("sortSelect").value = "sr_asc";
+      document.getElementById("clearSearchBtn").classList.add("hidden");
+      renderCategoryChips();
+      updateLetterStyles();
+      renderDirectory();
+    }
+
+    function applyFilters() {
+      state.priceRange = document.getElementById("priceFilterSelect").value;
+      state.sortBy = document.getElementById("sortSelect").value;
+      state.currentPage = 1;
+      renderDirectory();
+    }
+
+    function setViewMode(mode) {
+      state.viewMode = mode;
+      const cardBtn = document.getElementById("cardViewBtn");
+      const tableBtn = document.getElementById("tableViewBtn");
+      if (mode === "cards") {
+        cardBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold bg-brandBlue text-white transition cursor-pointer";
+        tableBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:text-slateInk transition cursor-pointer";
+      } else {
+        tableBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold bg-brandBlue text-white transition cursor-pointer";
+        cardBtn.className = "px-3 py-1.5 rounded-lg text-xs font-bold text-slate-600 hover:text-slateInk transition cursor-pointer";
+      }
+      renderDirectory();
+    }
+
+    function getFilteredTests() {
+      const q = state.searchQuery.toLowerCase();
+      const list = CATALOG.filter((item) => {
+        if (state.category !== "All Tests" && item.category !== state.category) return false;
+        if (state.letter !== "ALL") {
+          const first = item.name.trim().charAt(0).toUpperCase();
+          if (first !== state.letter) return false;
+        }
+        if (state.priceRange === "under300" && item.mrp > 300) return false;
+        if (state.priceRange === "300to1000" && (item.mrp <= 300 || item.mrp > 1000)) return false;
+        if (state.priceRange === "1000to3000" && (item.mrp <= 1000 || item.mrp > 3000)) return false;
+        if (state.priceRange === "above3000" && item.mrp <= 3000) return false;
+        if (q) {
+          const cleanQ = q.replace(/^#/, "");
+          const matchId = String(item.id) === cleanQ || String(item.id).includes(cleanQ);
+          const matchName = item.name.toLowerCase().includes(q);
+          const matchCat = item.category.toLowerCase().includes(q);
+          if (!matchId && !matchName && !matchCat) return false;
+        }
+        return true;
+      });
+
+      if (state.sortBy === "sr_asc") list.sort((a, b) => a.id - b.id);
+      else if (state.sortBy === "price_asc") list.sort((a, b) => a.mrp - b.mrp || a.id - b.id);
+      else if (state.sortBy === "price_desc") list.sort((a, b) => b.mrp - a.mrp || a.id - b.id);
+      else if (state.sortBy === "name_asc") list.sort((a, b) => a.name.localeCompare(b.name));
+
+      return list;
+    }
+
+    function toggleSelectTest(id) {
+      if (state.selectedIds.has(id)) {
+        state.selectedIds.delete(id);
+        showToast("Test removed from selection");
+      } else {
+        state.selectedIds.add(id);
+        showToast("Test added to booking list");
+      }
+      updateSelectionUI();
+      renderDirectory();
+    }
+
+    function clearSelectedTests() {
+      state.selectedIds.clear();
+      updateSelectionUI();
+      renderDirectory();
+      showToast("Cleared selected tests");
+    }
+
+    function getPricingBreakdown(selectedItems) {
+      const subtotal = selectedItems.reduce((sum, t) => sum + Number(t.mrp || 0), 0);
+      const discPct = Math.max(0, Math.min(90, Number(CENTER_CONFIG.discountPercent) || 0));
+      const discountAmt = Math.round((subtotal * discPct) / 100);
+      const payable = Math.max(0, subtotal - discountAmt);
+      return { subtotal, discPct, discountAmt, payable };
+    }
+
+    function updateSelectionUI() {
+      const selectedItems = CATALOG.filter((t) => state.selectedIds.has(t.id));
+      const count = selectedItems.length;
+      const { subtotal, discPct, discountAmt, payable } = getPricingBreakdown(selectedItems);
+
+      document.getElementById("headerCartBadge").textContent = count;
+      document.getElementById("bookingCartCount").textContent = count;
+      document.getElementById("bookingSubtotalMrp").textContent = formatINR(subtotal);
+
+      const discRow = document.getElementById("discountRowBox");
+      if (discPct > 0 && subtotal > 0) {
+        discRow.classList.remove("hidden");
+        document.getElementById("discountLabelText").textContent = `Discount (${discPct}%)`;
+        document.getElementById("bookingDiscountAmount").textContent = `-${formatINR(discountAmt)}`;
+      } else {
+        discRow.classList.add("hidden");
+      }
+
+      document.getElementById("bookingTotalMrp").textContent = formatINR(payable);
+
+      const floatBar = document.getElementById("floatingSelectionBar");
+      document.getElementById("floatingCount").textContent = count;
+      document.getElementById("floatingTotal").textContent = formatINR(payable);
+      floatBar.classList.toggle("hidden", count === 0);
+
+      const listEl = document.getElementById("selectedTestsList");
+      if (count === 0) {
+        listEl.innerHTML = `
+          <div class="text-center py-8 px-4 rounded-xl bg-slate-50 border border-dashed border-slate-200">
+            <p class="text-sm font-semibold text-slate-600">No tests selected yet</p>
+            <p class="text-xs text-slate-400 mt-1">Click "+ Select Test" on any test in the directory.</p>
+          </div>
+        `;
+      } else {
+        listEl.innerHTML = selectedItems.map((t) => `
+          <div class="flex items-center justify-between gap-2 p-3 rounded-xl bg-slate-50 border border-slate-200/80">
+            <div class="min-w-0">
+              <p class="text-[11px] font-bold text-slate-400">Sr. #${t.id} • ${escapeHtml(t.category)}</p>
+              <p class="text-xs sm:text-sm font-bold text-slateInk truncate">${escapeHtml(t.name)}</p>
+            </div>
+            <div class="flex items-center gap-2.5 shrink-0">
+              <span class="text-sm font-extrabold text-brandBlue">${formatINR(t.mrp)}</span>
+              <button type="button" onclick="toggleSelectTest(${t.id})" title="Remove" class="w-6 h-6 rounded-lg bg-brandRed-soft text-brandRed hover:bg-brandRed hover:text-white text-xs font-bold transition cursor-pointer">
+                ✕
+              </button>
+            </div>
+          </div>
+        `).join("");
+      }
+    }
+
+    function scrollToBookingWithSelected() {
+      document.getElementById("booking").scrollIntoView({ behavior: "smooth" });
+    }
+
+    function renderDirectory() {
+      const filtered = getFilteredTests();
+      const totalFiltered = filtered.length;
+      const totalPages = Math.max(1, Math.ceil(totalFiltered / state.pageSize));
+      if (state.currentPage > totalPages) state.currentPage = totalPages;
+
+      const startIdx = (state.currentPage - 1) * state.pageSize;
+      const pageItems = filtered.slice(startIdx, startIdx + state.pageSize);
+
+      document.getElementById("resultsCountText").innerHTML =
+        `Showing <span class="text-slateInk font-bold">${totalFiltered}</span> of <span class="text-slateInk font-bold">${CATALOG.length}</span> tests`;
+
+      const emptyBox = document.getElementById("emptyStateBox");
+      const cardGrid = document.getElementById("testsCardGrid");
+      const tableWrap = document.getElementById("testsTableWrapper");
+      const paginationBar = document.getElementById("paginationBar");
+
+      if (totalFiltered === 0) {
+        emptyBox.classList.remove("hidden");
+        cardGrid.classList.add("hidden");
+        tableWrap.classList.add("hidden");
+        paginationBar.classList.add("hidden");
+        return;
+      }
+
+      emptyBox.classList.add("hidden");
+      paginationBar.classList.remove("hidden");
+
+      if (state.viewMode === "cards") {
+        cardGrid.classList.remove("hidden");
+        tableWrap.classList.add("hidden");
+
+        cardGrid.innerHTML = pageItems.map((test) => {
+          const isSelected = state.selectedIds.has(test.id);
+          return `
+            <div class="bg-white rounded-2xl border ${isSelected ? "border-brandGreen ring-2 ring-brandGreen/20" : "border-slate-200/90"} shadow-card hover:shadow-cardHover p-4 flex flex-col justify-between gap-3 transition">
+              <div class="space-y-1.5">
+                <div class="flex items-center justify-between gap-2">
+                  <span class="text-xs font-extrabold text-brandBlue bg-brandBlue-soft px-2.5 py-0.5 rounded-md">#${test.id}</span>
+                  <span class="text-[11px] font-semibold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-md truncate max-w-[175px]">${escapeHtml(test.category)}</span>
+                </div>
+                <h3 class="text-sm sm:text-base font-bold text-slateInk leading-snug pt-0.5">${escapeHtml(test.name)}</h3>
+              </div>
+
+              <div class="flex items-center justify-between pt-2.5 border-t border-slate-100">
+                <div>
+                  <p class="text-[10px] font-bold uppercase tracking-wider text-slate-400">MRP</p>
+                  <p class="text-lg font-extrabold text-brandBlue">${formatINR(test.mrp)}</p>
+                </div>
+
+                <button type="button" onclick="toggleSelectTest(${test.id})" class="px-3.5 py-2 rounded-xl text-xs font-extrabold transition cursor-pointer ${
+                  isSelected
+                    ? "bg-brandGreen text-white hover:bg-brandGreen-dark"
+                    : "bg-brandBlue-soft text-brandBlue hover:bg-brandBlue hover:text-white"
+                }">
+                  ${isSelected ? "✓ Selected" : "+ Select Test"}
+                </button>
+              </div>
+            </div>
+          `;
+        }).join("");
+      } else {
+        cardGrid.classList.add("hidden");
+        tableWrap.classList.remove("hidden");
+        const tbody = document.getElementById("testsTableBody");
+        tbody.innerHTML = pageItems.map((test) => {
+          const isSelected = state.selectedIds.has(test.id);
+          return `
+            <tr class="${isSelected ? "bg-brandGreen-soft/60" : "hover:bg-slate-50"} transition">
+              <td class="py-3 px-4 font-bold text-brandBlue whitespace-nowrap">#${test.id}</td>
+              <td class="py-3 px-4 font-semibold text-slateInk">${escapeHtml(test.name)}</td>
+              <td class="py-3 px-4 text-xs font-semibold text-slate-500 whitespace-nowrap">${escapeHtml(test.category)}</td>
+              <td class="py-3 px-4 font-extrabold text-right text-slateInk whitespace-nowrap">${formatINR(test.mrp)}</td>
+              <td class="py-3 px-4 text-center whitespace-nowrap">
+                <button type="button" onclick="toggleSelectTest(${test.id})" class="px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                  isSelected
+                    ? "bg-brandGreen text-white"
+                    : "bg-brandBlue-soft text-brandBlue hover:bg-brandBlue hover:text-white"
+                }">
+                  ${isSelected ? "Selected" : "+ Add"}
+                </button>
+              </td>
+            </tr>
+          `;
+        }).join("");
+      }
+
+      renderPagination(totalPages, totalFiltered);
+    }
+
+    function renderPagination(totalPages, totalFiltered) {
+      document.getElementById("pageInfoText").textContent =
+        `Page ${state.currentPage} of ${totalPages} (${totalFiltered} tests)`;
+      document.getElementById("prevPageBtn").disabled = state.currentPage <= 1;
+      document.getElementById("nextPageBtn").disabled = state.currentPage >= totalPages;
+
+      const numBox = document.getElementById("pageNumberButtons");
+      const pages = [];
+      const windowRadius = 2;
+      for (let p = 1; p <= totalPages; p++) {
+        if (p === 1 || p === totalPages || (p >= state.currentPage - windowRadius && p <= state.currentPage + windowRadius)) {
+          pages.push(p);
+        } else if (pages[pages.length - 1] !== "...") {
+          pages.push("...");
+        }
+      }
+
+      numBox.innerHTML = pages.map((p) => {
+        if (p === "...") return `<span class="px-2 text-xs text-slate-400">...</span>`;
+        const active = p === state.currentPage;
+        return `
+          <button type="button" onclick="goToPage(${p})" class="w-8 h-8 rounded-lg text-xs font-bold transition cursor-pointer ${
+            active ? "bg-brandBlue text-white" : "text-slate-600 hover:bg-slate-100"
+          }">${p}</button>
+        `;
+      }).join("");
+    }
+
+    function goToPage(p) {
+      state.currentPage = p;
+      renderDirectory();
+      document.getElementById("tests").scrollIntoView({ behavior: "smooth" });
+    }
+
+    function changePage(delta) {
+      goToPage(state.currentPage + delta);
+    }
+
+    function buildBookingSummaryText() {
+      const name = document.getElementById("patientName").value.trim() || "Not provided";
+      const phone = document.getElementById("patientPhone").value.trim() || "Not provided";
+      const mode = document.getElementById("collectionMode").value;
+      const slot = document.getElementById("preferredSlot").value;
+      const address = document.getElementById("patientAddress").value.trim() || "Not provided";
+      const notes = document.getElementById("additionalNotes").value.trim();
+
+      const p1 = cleanPhone10(CENTER_CONFIG.phone1);
+      const p2 = cleanPhone10(CENTER_CONFIG.phone2);
+      const selected = CATALOG.filter((t) => state.selectedIds.has(t.id));
+      const { subtotal, discPct, discountAmt, payable } = getPricingBreakdown(selected);
+
+      const testsLines = selected.length > 0
+        ? selected.map((t, i) => `${i + 1}. [#${t.id}] ${t.name} — ${formatINR(t.mrp)}`).join("\n")
+        : "No specific tests selected from list (please confirm test requirement)";
+
+      const priceLines = discPct > 0 && subtotal > 0
+        ? [
+            `Subtotal MRP: ${formatINR(subtotal)}`,
+            `Discount (${discPct}%): -${formatINR(discountAmt)}`,
+            `Estimated Payable: *${formatINR(payable)}*`
+          ]
+        : [`Estimated Total MRP: *${formatINR(payable)}*`];
+
+      return [
+        "*Kashalya Diagnostics — Test Booking Request*",
+        `Center: ${CENTER_CONFIG.address}`,
+        `Hours: ${CENTER_CONFIG.hours}`,
+        `Helpline: +91 ${p1} / +91 ${p2}`,
+        "----------------------------------------",
+        `Patient Name: ${name}`,
+        `Mobile: ${phone}`,
+        `Service Mode: ${mode}`,
+        `Preferred Slot: ${slot}`,
+        `Patient Address: ${address}`,
+        "",
+        "*Selected Tests:*",
+        testsLines,
+        ...priceLines,
+        notes ? `Notes: ${notes}` : ""
+      ].filter(Boolean).join("\n");
+    }
+
+    function recordBookingEntry(channel) {
+      const name = document.getElementById("patientName").value.trim() || "Walk-in / Summary";
+      const phone = document.getElementById("patientPhone").value.trim() || "N/A";
+      const mode = document.getElementById("collectionMode").value;
+      const slot = document.getElementById("preferredSlot").value;
+      const selected = CATALOG.filter((t) => state.selectedIds.has(t.id));
+      const { payable } = getPricingBreakdown(selected);
+
+      BOOKING_LOGS.unshift({
+        id: Date.now(),
+        time: new Date().toLocaleString("en-IN"),
+        channel,
+        name,
+        phone,
+        mode,
+        slot,
+        testsCount: selected.length,
+        testNames: selected.map((t) => `#${t.id} ${t.name}`).join(", "),
+        payable
+      });
+      BOOKING_LOGS = BOOKING_LOGS.slice(0, 100);
+      saveBookingsToStorage();
+      updateAdminBookingBadge();
+    }
+
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+      const summary = buildBookingSummaryText();
+      document.getElementById("bookingSummaryText").textContent = summary;
+      document.getElementById("bookingConfirmationCard").classList.remove("hidden");
+      recordBookingEntry("Summary");
+      showToast("Booking summary generated & logged");
+    }
+
+    function sendBookingToWhatsApp() {
+      const name = document.getElementById("patientName").value.trim();
+      const phone = document.getElementById("patientPhone").value.trim();
+      if (!name || !phone) {
+        showToast("Please enter Patient Name and Mobile Number first");
+        document.getElementById("patientName").focus();
+        return;
+      }
+      const p1 = cleanPhone10(CENTER_CONFIG.phone1);
+      const summary = buildBookingSummaryText();
+      document.getElementById("bookingSummaryText").textContent = summary;
+      document.getElementById("bookingConfirmationCard").classList.remove("hidden");
+      recordBookingEntry("WhatsApp");
+      const url = `https://wa.me/91${p1}?text=${encodeURIComponent(summary)}`;
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    function copyBookingSummary() {
+      const text = document.getElementById("bookingSummaryText").textContent;
+      navigator.clipboard?.writeText(text).then(() => {
+        showToast("Booking summary copied");
+      });
+    }
+
+    function copyCenterAddress() {
+      navigator.clipboard?.writeText(CENTER_CONFIG.address).then(() => {
+        showToast("Center address copied");
+      });
+    }
+
+    window.openAdminGate = function () {
+      if (adminUnlocked) {
+        openAdminPanel();
+        return;
+      }
+      document.getElementById("adminPinInput").value = "";
+      document.getElementById("adminPinModal").classList.remove("hidden");
+      setTimeout(() => document.getElementById("adminPinInput")?.focus(), 100);
+    };
+
+    function closeAdminPinModal() {
+      document.getElementById("adminPinModal").classList.add("hidden");
+    }
+
+    function verifyAdminPin(e) {
+      e.preventDefault();
+      const entered = document.getElementById("adminPinInput").value.trim();
+      if (entered === String(CENTER_CONFIG.adminPin || "0311")) {
+        adminUnlocked = true;
+        closeAdminPinModal();
+        openAdminPanel();
+        showToast("Admin panel unlocked");
+      } else {
+        showToast("Incorrect Admin PIN");
+      }
+    }
+
+    function openAdminPanel() {
+      populateCenterForm();
+      updateAdminBookingBadge();
+      renderAdminTestsList();
+      renderAdminBookingsList();
+      buildExportedHtml();
+      document.getElementById("adminPanelModal").classList.remove("hidden");
+    }
+
+    function closeAdminPanel() {
+      document.getElementById("adminPanelModal").classList.add("hidden");
+    }
+
+    function switchAdminTab(tab) {
+      const tabs = ["tests", "center", "bookings", "export"];
+      tabs.forEach((t) => {
+        document.getElementById("adminTab" + t.charAt(0).toUpperCase() + t.slice(1)).classList.toggle("hidden", t !== tab);
+        const btn = document.getElementById("adminTab" + t.charAt(0).toUpperCase() + t.slice(1) + "Btn");
+        if (t === tab) {
+          btn.className = "px-4 py-2 rounded-xl text-xs font-extrabold bg-brandBlue text-white cursor-pointer";
+        } else {
+          btn.className = "px-4 py-2 rounded-xl text-xs font-extrabold bg-white text-slate-700 hover:bg-slate-200/60 cursor-pointer";
+        }
+      });
+      if (tab === "bookings") renderAdminBookingsList();
+      if (tab === "export") buildExportedHtml();
+    }
+
+    function handleAddNewTest(e) {
+      e.preventDefault();
+      const nameVal = document.getElementById("newTestNameInput").value.trim();
+      const mrpVal = Number(document.getElementById("newTestMrpInput").value);
+      const catVal = document.getElementById("newTestCategoryInput").value;
+      if (!nameVal || mrpVal <= 0) return;
+
+      const maxId = CATALOG.reduce((m, t) => Math.max(m, Number(t.id) || 0), 0);
+      CATALOG.push({
+        id: maxId + 1,
+        name: nameVal,
+        mrp: mrpVal,
+        category: catVal
+      });
+      saveTestsToStorage();
+      document.getElementById("newTestNameInput").value = "";
+      document.getElementById("newTestMrpInput").value = "";
+      applyCenterConfigToDOM();
+      renderCategoryChips();
+      renderDirectory();
+      renderAdminTestsList();
+      showToast(`Added #${maxId + 1} ${nameVal}`);
+    }
+
+    function saveSingleTestRow(id) {
+      const nameEl = document.getElementById(`adminEditName_${id}`);
+      const mrpEl = document.getElementById(`adminEditMrp_${id}`);
+      const catEl = document.getElementById(`adminEditCat_${id}`);
+      const target = CATALOG.find((t) => t.id === id);
+      if (!target || !nameEl || !mrpEl || !catEl) return;
+
+      const newName = nameEl.value.trim();
+      const newMrp = Number(mrpEl.value);
+      if (!newName || isNaN(newMrp) || newMrp < 0) {
+        showToast("Enter valid test name and MRP");
+        return;
+      }
+      target.name = newName;
+      target.mrp = newMrp;
+      target.category = catEl.value;
+      saveTestsToStorage();
+      renderCategoryChips();
+      renderDirectory();
+      updateSelectionUI();
+      showToast(`Updated #${id}`);
+    }
+
+    function deleteTestRow(id) {
+      CATALOG = CATALOG.filter((t) => t.id !== id);
+      state.selectedIds.delete(id);
+      saveTestsToStorage();
+      applyCenterConfigToDOM();
+      renderCategoryChips();
+      renderDirectory();
+      updateSelectionUI();
+      renderAdminTestsList();
+      showToast(`Deleted test #${id}`);
+    }
+
+    function renderAdminTestsList() {
+      const q = (document.getElementById("adminTestSearchInput")?.value || "").trim().toLowerCase().replace(/^#/, "");
+      const tbody = document.getElementById("adminTestsTableBody");
+      if (!tbody) return;
+
+      const list = CATALOG.filter((t) => {
+        if (!q) return true;
+        return String(t.id).includes(q) || t.name.toLowerCase().includes(q) || t.category.toLowerCase().includes(q);
+      }).slice(0, 120);
+
+      tbody.innerHTML = list.map((t) => `
+        <tr>
+          <td class="py-2 px-3 font-bold text-brandBlue">#${t.id}</td>
+          <td class="py-2 px-3">
+            <input type="text" id="adminEditName_${t.id}" value="${escapeHtml(t.name)}" class="w-full px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs font-semibold" />
+          </td>
+          <td class="py-2 px-3">
+            <select id="adminEditCat_${t.id}" class="px-2 py-1.5 rounded-lg border border-slate-200 text-xs bg-white">
+              ${CATEGORIES.slice(1).map((c) => `<option value="${escapeHtml(c)}" ${t.category === c ? "selected" : ""}>${escapeHtml(c)}</option>`).join("")}
+            </select>
+          </td>
+          <td class="py-2 px-3">
+            <input type="number" id="adminEditMrp_${t.id}" value="${t.mrp}" min="0" class="w-24 px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs font-bold" />
+          </td>
+          <td class="py-2 px-3 text-right whitespace-nowrap space-x-1">
+            <button type="button" onclick="saveSingleTestRow(${t.id})" class="px-2.5 py-1 rounded-lg bg-brandBlue text-white text-xs font-bold cursor-pointer">Save</button>
+            <button type="button" onclick="deleteTestRow(${t.id})" class="px-2.5 py-1 rounded-lg bg-brandRed-soft text-brandRed hover:bg-brandRed hover:text-white text-xs font-bold cursor-pointer">✕</button>
+          </td>
+        </tr>
+      `).join("");
+    }
+
+    function populateCenterForm() {
+      document.getElementById("adminCenterAddress").value = CENTER_CONFIG.address;
+      document.getElementById("adminCenterHours").value = CENTER_CONFIG.hours;
+      document.getElementById("adminDiscountPercent").value = CENTER_CONFIG.discountPercent || 0;
+      document.getElementById("adminPhone1").value = CENTER_CONFIG.phone1;
+      document.getElementById("adminPhone2").value = CENTER_CONFIG.phone2;
+      document.getElementById("adminEmail").value = CENTER_CONFIG.email;
+      document.getElementById("adminNewPin").value = CENTER_CONFIG.adminPin || "0311";
+    }
+
+    function saveCenterSettings(e) {
+      e.preventDefault();
+      CENTER_CONFIG = {
+        address: document.getElementById("adminCenterAddress").value.trim() || DEFAULT_CENTER_CONFIG.address,
+        hours: document.getElementById("adminCenterHours").value.trim() || DEFAULT_CENTER_CONFIG.hours,
+        discountPercent: Math.max(0, Math.min(90, Number(document.getElementById("adminDiscountPercent").value) || 0)),
+        phone1: cleanPhone10(document.getElementById("adminPhone1").value),
+        phone2: cleanPhone10(document.getElementById("adminPhone2").value),
+        email: document.getElementById("adminEmail").value.trim() || DEFAULT_CENTER_CONFIG.email,
+        adminPin: document.getElementById("adminNewPin").value.trim() || "0311"
+      };
+      saveConfigToStorage();
+      applyCenterConfigToDOM();
+      updateSelectionUI();
+      showToast("Center & discount settings saved");
+    }
+
+    function updateAdminBookingBadge() {
+      const el = document.getElementById("adminBookingCount");
+      if (el) el.textContent = BOOKING_LOGS.length;
+    }
+
+    function renderAdminBookingsList() {
+      const container = document.getElementById("adminBookingsContainer");
+      if (!container) return;
+      if (BOOKING_LOGS.length === 0) {
+        container.innerHTML = `<div class="p-6 text-center text-xs text-slate-500 bg-slate-50 rounded-2xl border border-dashed border-slate-200">No booking entries recorded yet.</div>`;
+        return;
+      }
+      container.innerHTML = BOOKING_LOGS.map((b) => `
+        <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 text-xs space-y-1">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <span class="font-extrabold text-slateInk">${escapeHtml(b.name)} (${escapeHtml(b.phone)})</span>
+            <span class="px-2 py-0.5 rounded-md bg-brandBlue-soft text-brandBlue font-bold">${escapeHtml(b.channel)} • ${escapeHtml(b.time)}</span>
+          </div>
+          <p class="text-slate-600">${escapeHtml(b.mode)} | Slot: ${escapeHtml(b.slot)} | Payable: <strong class="text-brandBlue">${formatINR(b.payable)}</strong></p>
+          <p class="text-slate-500">Tests (${b.testsCount}): ${escapeHtml(b.testNames || "None selected")}</p>
+        </div>
+      `).join("");
+    }
+
+    function clearBookingLogs() {
+      BOOKING_LOGS = [];
+      saveBookingsToStorage();
+      updateAdminBookingBadge();
+      renderAdminBookingsList();
+      showToast("Booking log cleared");
+    }
+
+    function resetAllAdminData() {
+      try {
+        localStorage.removeItem(STORAGE_KEYS.tests);
+        localStorage.removeItem(STORAGE_KEYS.config);
+      } catch (_) {}
+      CATALOG = DEFAULT_RAW_TESTS.map((item) => ({
+        id: item.id,
+        name: item.name,
+        mrp: item.mrp,
+        category: categorizeTest(item.name)
+      }));
+      CENTER_CONFIG = Object.assign({}, DEFAULT_CENTER_CONFIG);
+      applyCenterConfigToDOM();
+      populateCenterForm();
+      renderCategoryChips();
+      renderDirectory();
+      updateSelectionUI();
+      renderAdminTestsList();
+      buildExportedHtml();
+      showToast("Reset to default tests & settings");
+    }
+
+    function buildExportedHtml() {
+      const area = document.getElementById("exportedHtmlArea");
+      if (!area) return;
+      const serializedTests = JSON.stringify(CATALOG.map((t) => ({ id: t.id, name: t.name, mrp: t.mrp, category: t.category })));
+      const serializedConfig = JSON.stringify(CENTER_CONFIG);
+      let fullHtml = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+      fullHtml = fullHtml
+        .replace(/let CATALOG = loadStoredTests\(\);/, `let CATALOG = ${serializedTests};`)
+        .replace(/let CENTER_CONFIG = loadStoredConfig\(\);/, `let CENTER_CONFIG = ${serializedConfig};`);
+      area.value = fullHtml;
+    }
+
+    function copyExportedHtml() {
+      buildExportedHtml();
+      const text = document.getElementById("exportedHtmlArea").value;
+      navigator.clipboard?.writeText(text).then(() => {
+        showToast("Updated HTML code copied for GitHub");
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      applyCenterConfigToDOM();
+      renderCategoryChips();
+      renderAlphabetBar();
+      updateSelectionUI();
+      updateAdminBookingBadge();
+      renderDirectory();
+    });
+  </script>
+</body>
+</html>
